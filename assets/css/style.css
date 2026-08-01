@@ -484,7 +484,7 @@ p { color: var(--text-muted); line-height: 1.7; }
 }
 
 /* ---------- Contact ---------- */
-.contact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.contact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 680px; margin-inline: auto; }
 .contact-card { padding: 30px; text-align: center; }
 .contact-card .app-icon { margin: 0 auto 18px; }
 .contact-card h3 { margin-bottom: 8px; }
