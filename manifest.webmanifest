@@ -1,0 +1,22 @@
+{
+  "name": "Nova Utilities",
+  "short_name": "Nova Utilities",
+  "description": "Professional Offline Android Utility Applications — a collection of modern offline Android utility apps focused on privacy, performance and simplicity.",
+  "start_url": "https://nova-utilities-ship-it.github.io/",
+  "scope": "https://nova-utilities-ship-it.github.io/",
+  "id": "https://nova-utilities-ship-it.github.io/",
+  "display": "standalone",
+  "background_color": "#080a13",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    {
+      "src": "assets/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
