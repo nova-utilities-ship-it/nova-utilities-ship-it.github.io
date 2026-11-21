@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy | Nova Utilities</title>
-<meta name="description" content="Read the Nova Utilities privacy policy covering data collection, permissions, and how our offline-first Android apps handle your information.">
+<meta name="description" content="Read the Nova Utilities privacy policy covering data collection, app permissions, advertising, analytics and how each of our offline-first Android apps handles your information.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://nova-utilities-ship-it.github.io/privacy.html">
 
@@ -80,21 +80,22 @@
     <div class="container prose">
       <p class="updated-note">
         <svg class="icon" style="width:16px;height:16px;"><use href="assets/icons/sprite.svg#icon-shield"></use></svg>
-        Last updated: August 1, 2026
+        Last updated: November 21, 2026
       </p>
 
       <h2>Introduction</h2>
-      <p>Nova Utilities ("we", "us", "our") develops offline-first Android utility applications. This Privacy Policy explains what information, if any, our apps and this website interact with, and how that information is handled. This policy applies to the Nova Utilities website and to every application in the Nova Utilities ecosystem, unless a specific app states otherwise in-app.</p>
+      <p>Nova Utilities ("we", "us", "our") develops offline-first Android utility applications. This Privacy Policy explains what information, if any, our apps and this website interact with, and how that information is handled. This policy applies to the Nova Utilities website and to every application in the Nova Utilities ecosystem — currently Nova Image Compressor, Nova PDF Tools, Nova File Manager, Nova QR Suite, Nova Video Studio, Nova Flashlight, Nova Astro, Digital Compass Nova, Do It Now, Empty Fridge Chef, Future Me and Life Inbox — unless a specific app states otherwise in-app.</p>
 
       <h2>Our Core Privacy Principle</h2>
-      <p>Nova Utilities apps are designed to work fully offline. Wherever possible, all processing — image compression, file management, document conversion, and similar operations — happens locally on your device. Your files are not uploaded to our servers, because we do not operate servers that receive your app content.</p>
+      <p>Nova Utilities apps are designed to work fully offline. Wherever possible, all processing — image compression, file management, document conversion, calculations, and similar operations — happens locally on your device. Your files, photos, documents, notes and personal entries are never uploaded to our servers, because we do not operate servers that receive your app content. No app requires an account, sign-in, or cloud sync, and backups (where available) are saved to a file you control, not to the cloud. Some apps display ads and use basic analytics or crash reporting to help fund development and fix bugs — the "Advertising", "Analytics &amp; Crash Reporting" and "Permissions &amp; Data by App" sections below explain exactly what that involves and never your files or content.</p>
 
       <h2>Information We Collect</h2>
       <h3>Through Our Apps</h3>
       <ul>
         <li>Nova Utilities apps do not require account creation or sign-in.</li>
-        <li>Apps do not collect, transmit, or store personal files, photos, or documents you process.</li>
-        <li>Apps may request Android system permissions (such as storage access) strictly to perform the function you request — for example, reading an image you choose to compress.</li>
+        <li>Apps do not collect, transmit, or store the personal files, photos, documents, notes or entries you create or process — those stay on your device.</li>
+        <li>Apps may request Android system permissions (such as camera, storage or location access) strictly to perform the function you request — for example, reading a photo you choose to compress, or using your camera to scan a document.</li>
+        <li>Apps that include Google AdMob and Firebase SDKs (see below) may cause those third parties to process device and advertising identifiers, and anonymous, aggregated usage or crash data. This is separate from, and never includes, your personal content.</li>
       </ul>
       <h3>Through This Website</h3>
       <ul>
@@ -103,17 +104,92 @@
         <li>If GitHub Pages hosting infrastructure logs standard technical data (such as IP address for security purposes), that is governed by GitHub's own privacy policy, not ours.</li>
       </ul>
 
-      <h2>App Permissions</h2>
-      <p>Where an Android permission is required for a feature to work (for example, storage access for a file manager, or media access for an image compressor), the app will request it directly and only use it for the stated purpose. Denying a permission may limit the related feature but will not affect the rest of the app.</p>
+      <h2>Advertising</h2>
+      <p>Most Nova Utilities apps are free to use and supported by Google AdMob, which may show banner, interstitial, rewarded or native ads. Where required (for example under GDPR), apps use Google's User Messaging Platform (UMP) to ask for your consent before loading ad SDKs or showing personalized ads, and you can review or change that choice from the app's settings at any time. AdMob may process device and advertising identifiers to serve and measure ads, but it never has access to the files, photos, notes or other content you create or process inside our apps. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">how AdMob works</a> for more detail.</p>
 
-      <h2>Third-Party Services</h2>
-      <p>Nova Utilities apps do not currently integrate third-party analytics, advertising, or tracking SDKs. If this changes for a specific app in the future, that app's in-app privacy notice and this policy will be updated accordingly before the change takes effect.</p>
+      <h2>Analytics &amp; Crash Reporting</h2>
+      <p>Several Nova Utilities apps use Firebase Analytics to understand aggregated, anonymized feature usage, and Firebase Crashlytics to receive automatic crash reports that help us find and fix bugs. Both are provided by Google and do not have access to your personal files, photos, notes or other app content. Not every app includes these — Nova Flashlight, for example, uses no analytics or crash-reporting SDK at all. See the breakdown below for exactly which services each app uses.</p>
+
+      <h2>Permissions &amp; Data by App</h2>
+      <p>Denying a permission may limit the related feature but will not affect the rest of an app. None of the apps below require an account, store your content on a server, or sync it to the cloud.</p>
+
+      <h3>Nova Image Compressor – Resize &amp; Convert</h3>
+      <ul>
+        <li>Permissions: storage/photo access to open and save the images you choose to process; internet access, used only for ads.</li>
+        <li>Services: Google AdMob with UMP consent; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Nova PDF Tools</h3>
+      <ul>
+        <li>Permissions: camera (only for the "Scan to PDF" feature), storage access to open/save your PDFs, notifications, internet (ads).</li>
+        <li>Services: Google AdMob; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Nova File Manager</h3>
+      <ul>
+        <li>Permissions: broad file/storage access (its core function, used to browse and manage your device's files), access to your list of installed apps (for the built-in APK manager), notifications, internet (ads).</li>
+        <li>Services: Google AdMob; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Nova QR Suite</h3>
+      <ul>
+        <li>Permissions: camera, used only to scan a code when you choose to; internet (ads).</li>
+        <li>Services: Google AdMob; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Nova Video Studio</h3>
+      <ul>
+        <li>Permissions: storage access to open and export your videos, notifications, internet (ads).</li>
+        <li>Services: Google AdMob; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Nova Flashlight</h3>
+      <ul>
+        <li>Permissions: controls your camera's flash directly without requesting camera or photo access, plus vibration and notifications; internet access is used solely for ads.</li>
+        <li>Services: Google AdMob with UMP consent only — no analytics or crash-reporting SDK of any kind.</li>
+      </ul>
+
+      <h3>Nova Astro</h3>
+      <ul>
+        <li>Permissions: location is optional and only used if you choose "use current location" when entering your birth details — manual entry is always available; notifications; internet (ads and a small public configuration file).</li>
+        <li>Services: Google AdMob; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Digital Compass Nova</h3>
+      <ul>
+        <li>Permissions: location is optional and only used for the Location screen and true-north correction; vibration; internet (ads).</li>
+        <li>Services: Google AdMob with UMP consent; Firebase Analytics &amp; Crashlytics.</li>
+      </ul>
+
+      <h3>Do It Now</h3>
+      <ul>
+        <li>Permissions: notifications and exact-alarm scheduling, used only for the reminders and timers you set; internet (ads).</li>
+        <li>Services: Google AdMob; Firebase Analytics.</li>
+      </ul>
+
+      <h3>Empty Fridge Chef</h3>
+      <ul>
+        <li>Permissions: internet access, used only for ads and for the optional feature that lets you import an extra recipe pack from a URL you provide — every other feature works fully offline.</li>
+        <li>Services: Google AdMob with UMP consent.</li>
+      </ul>
+
+      <h3>Future Me</h3>
+      <ul>
+        <li>Permissions: notifications, used only for the reminders you set; internet (ads).</li>
+        <li>Services: Google AdMob with UMP consent. Your goals and financial figures stay on your device unless you choose to export a PDF yourself.</li>
+      </ul>
+
+      <h3>Life Inbox</h3>
+      <ul>
+        <li>Permissions: camera and microphone, used only when you choose to capture a photo or voice memo; notifications and exact-alarm scheduling for reminders; internet (ads).</li>
+        <li>Services: Google AdMob with UMP consent; Firebase Analytics.</li>
+      </ul>
 
       <h2>Data Security</h2>
       <p>Because Nova Utilities apps process data locally on your device rather than on remote servers, your files remain under your control at all times. We still recommend keeping your device and operating system up to date to maintain general security.</p>
 
       <h2>Children's Privacy</h2>
-      <p>Nova Utilities apps are general-purpose utilities not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+      <p>Nova Utilities apps are general-purpose utilities not directed at children under 13, and we do not knowingly collect personal information from children. Our apps are not configured to serve child-directed advertising.</p>
 
       <h2>Changes to This Policy</h2>
       <p>This is a living document. As new Nova Utilities applications are released and the ecosystem grows, this Privacy Policy will be reviewed and updated to accurately reflect how each app works. Material changes will be reflected by updating the "Last updated" date above.</p>
