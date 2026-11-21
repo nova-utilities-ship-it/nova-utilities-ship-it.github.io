@@ -16,6 +16,66 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-image-compressor.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-pdf-tools.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-file-manager.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-qr-suite.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-video-studio.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-flashlight.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/nova-astro.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/digital-compass-nova.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/do-it-now.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/empty-fridge-chef.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/future-me.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nova-utilities-ship-it.github.io/life-inbox.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nova-utilities-ship-it.github.io/changelog.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
